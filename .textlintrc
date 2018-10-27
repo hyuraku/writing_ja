@@ -1,0 +1,38 @@
+{
+  "filters": {},
+  "rules": {
+    "max-ten": {
+      "max": 3
+    },
+    "sentence-length": {
+      "max": 90
+    },
+    "preset-ja-technical-writing": true,
+    "preset-japanese": true,
+    "spellcheck-tech-word": true,
+    "prh":  {
+      "rulePaths": [
+        "prh/media/techbooster.yml",
+        "prh/media/WEB+DB_PRESS.yml"
+        ]
+    },
+    "no-double-negative-ja": true,
+      // ら抜き言葉を使用しない
+    "no-dropping-the-ra": true,
+    "no-mix-dearu-desumasu": {
+      // 見出しは自動
+      "preferInHeader": "",
+      // 本文はですます調
+      "preferInBody": "ですます",
+      // 箇条書きはである調
+      "preferInList": "である",
+      // 文末以外のチェックをしない
+      "strict": false
+    },
+    "max-comma": {
+      max: 3
+    },
+    "preset-japanese": true,
+    "preset-jtf-style": true,
+  }
+}
